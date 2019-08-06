@@ -1,0 +1,86 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, 'Helvetica Neue', HelveticaNeue, Helvetica, Microsoft YaHei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+img,
+div,
+i,
+a,
+button,
+textarea,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  display: block;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  border: none;
+  pointer-events: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+i {
+  display: block;
+  font-style: normal;
+}
+
+a {
+  display: block;
+  border: none;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  font: initial;
+  background-color: transparent;
+  line-height: 1;
+  appearance: none;
+  outline: none;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='search'],
+input[type='number'],
+textarea {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
